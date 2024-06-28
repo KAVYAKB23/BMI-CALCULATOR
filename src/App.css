@@ -1,0 +1,18 @@
+body{
+  background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAzL3JtNTk3ZGVzaWduLWMtY2hvbmctMDAxLmpwZw.jpg);
+  overflow: hidden;
+}
+.container{
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px 30px; /* Padding inside the container */
+    max-width: 500px; /* Maximum width */
+    width: 90%; /* Responsive width */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+    color: #fff; /* Text color */
+    text-align: center; /* Centered text */
+    margin-top: 20px;
+}
